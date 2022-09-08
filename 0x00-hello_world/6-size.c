@@ -2,7 +2,8 @@
 
 /**
  * *print size of objects in c
- * */
+ * returns zero
+ */
 
 int main(void)
 {
