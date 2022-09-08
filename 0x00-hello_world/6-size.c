@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * *print size of objects in c
+ * */
+
 int main(void)
 {
 	int a;
