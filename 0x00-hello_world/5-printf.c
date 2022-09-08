@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *print to screen using printf
- *return zero
+ *main - print to screen using printf
+ *
+ *Return - return zero
  */
 
 int main(void)

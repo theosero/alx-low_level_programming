@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * *print size of objects in c
- * returns zero
+ * main -print size of objects in c
+ * 
+ * Return -returns zero
  */
 
 int main(void)

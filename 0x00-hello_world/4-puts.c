@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * *Print to screen using puts
- * return 0
+ *main - Print to screen using puts
+ *
+ *Return - return 0
  */
 
 int main(void)
