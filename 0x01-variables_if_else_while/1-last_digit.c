@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	int ld = 0;
+	int last_digit = 0;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
