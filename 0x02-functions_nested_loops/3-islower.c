@@ -2,6 +2,7 @@
 
 /**
  * _islower - entry point
+ * @c: the passed parameter
  *
  * Return: always zero
  */
