@@ -3,17 +3,19 @@
 /**
  * _strlen - entry point
  * @s: string parameter
+ *
+ * Return: int
  */
 
 int _strlen(char *s)
 {
-	int i = s[0];
-	int sum =0;
+	int i = 1, sum = 0;
+	char j = s[0];
 
-	while(i != '\0')
+	while (j != '\0')
 	{
 		sum++;
-		i = sum;
+		j = s[i++];
 	}
 	return (sum);
 }
