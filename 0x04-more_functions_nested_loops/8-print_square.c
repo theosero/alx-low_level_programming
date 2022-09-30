@@ -2,7 +2,8 @@
 
 /**
  * print_square - entry point
- *
+ *@size: size of square
+
  * Return: always zero
  */
 
