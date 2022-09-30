@@ -1,21 +1,19 @@
 #include "main.h"
-
-
 /**
- * print_diagonal - entry point
+ * print_diagonal -draws a diagonal line on the terminal
+ * @n: the number of times that the special character must be print
  *
- * Return: always zero
+ * Return: a diagonal
  */
-
 void print_diagonal(int n)
 {
-	int i, j;
+	int a, b;
 
-	if (n >0)
+	if (n > 0)
 	{
-		for (i = 0; i < n; i++)
+		for (a = 0 ; a < n ; a++)
 		{
-			for (j = 0; j < a; j++)
+			for (b = 0 ; b < a ; b++)
 			{
 				_putchar(' ');
 			}
