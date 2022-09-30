@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - print all numbers excepr 2 and 4
- * 
+ *
  * Return: akways 0
  */
 
