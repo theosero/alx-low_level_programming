@@ -6,7 +6,7 @@
  * Return: always zero
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i;
 
