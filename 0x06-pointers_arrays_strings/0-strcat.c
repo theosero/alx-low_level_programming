@@ -4,7 +4,7 @@
  * _strcat - entry point
  * @dest: passed parameter
  * @src: passed parameter
- * Return: return 
+ * Return: return
  */
 
 char *_strcat(char *dest, char *src)
