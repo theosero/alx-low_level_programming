@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reverse_aay - reverse array elements
+ * reverse_array - reverse array elements
  * @a: pointer to array
  * @n: no of elements in array
  * Return: always 0
@@ -12,7 +12,7 @@ void reverse_array(int *a, int n)
 	int i, j;
 
 	i = 0;
-	n --;
+	n--;
 	while (i < n)
 	{
 		j  = a[i];
