@@ -1,4 +1,5 @@
-#include "n.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * main - function with two arguments
