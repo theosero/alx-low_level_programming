@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "n.h"
 
 /**
  * main - function with two arguments
@@ -10,7 +10,6 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
 	printf("%s\n", argv[0]);
 	return (0);
 }
