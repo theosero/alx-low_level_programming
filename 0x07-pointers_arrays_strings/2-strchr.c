@@ -6,7 +6,7 @@
  * @c: cgaracter to find
  * Return: pointer to the char
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strchr(char *s, char c)
 {
 	int i = 0;
 
