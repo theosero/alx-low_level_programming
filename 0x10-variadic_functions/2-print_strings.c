@@ -12,14 +12,14 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list list;
-	char *pointer;
+	char *ptr;
 
 	va_start(list, n);
 
 	for (i = 0; i < n; i++)
 	{
-		pointer = va_arg(list, char *);
-		if (pointer == NULL)
+		ptr = va_arg(list, char *);
+		if (ptr == NULL)
 		{
 			printf("(nil)");
 		}
